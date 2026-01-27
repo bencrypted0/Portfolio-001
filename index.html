@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bennet Sharwin | Cybersecurity Enthusiast specializing in Network Security, Linux Security, and Threat Detection. Kerala, India.">
+    <meta name="keywords"
+        content="cybersecurity, network security, linux security, threat detection, log analysis, incident response, security automation, python, SOC">
+    <meta name="author" content="Bennet Sharwin">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bennet Sharwin | Cybersecurity Enthusiast">
+    <meta property="og:description"
+        content="Cybersecurity Enthusiast specializing in Network Security, Linux Security, and Threat Detection.">
+    <meta property="og:image" content="assets/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bennet Sharwin | Cybersecurity Enthusiast">
+    <meta name="twitter:description"
+        content="Cybersecurity Enthusiast specializing in Network Security, Linux Security, and Threat Detection.">
+
+    <title>Bennet Sharwin | Cybersecurity Enthusiast</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Fonts - Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Vujahday+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/glare-styles.css">
+    <link rel="stylesheet" href="css/styles-tech.css">
+</head>
+
+<body class="is-loading">
+    <!-- Page Loader -->
+    <div class="page-loader" id="page-loader" aria-hidden="true">
+        <div class="lamp-wrapper">
+            <!-- Left conic gradient -->
+            <div class="conic-left">
+                <div class="mask-bottom"></div>
+                <div class="mask-left"></div>
+            </div>
+
+            <!-- Right conic gradient -->
+            <div class="conic-right">
+                <div class="mask-right"></div>
+                <div class="mask-bottom"></div>
+            </div>
+
+            <!-- Blur and Glow Effects -->
+            <div class="lamp-blur-bg"></div>
+            <div class="lamp-blur-overlay"></div>
+            <div class="lamp-glow-circle"></div>
+            <div class="lamp-glow-small"></div>
+            <div class="lamp-line"></div>
+
+            <!-- Top mask -->
+            <div class="lamp-top-mask"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="lamp-content">
+            <h1 class="lamp-title">
+                Initializing...
+            </h1>
+        </div>
+
+        <!-- Hidden element to maintain JS compatibility -->
+        <div id="loader-bar-fill" style="display: none;"></div>
+    </div>
+
+    <div class="page-content" id="page-content">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline id="bg-video" aria-hidden="true" poster="assets/background-image.jpg">
+            <source src="assets/background-video-3.mp4" type="video/mp4">
+        </video>
+
+        <!-- Skip Link for Accessibility -->
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+
+        <!-- Navigation -->
+        <header class="header" role="banner">
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <!-- Logo (Left) -->
+                <a href="#" class="nav-logo">
+                    <img src="assets/logo.svg" alt="Portfolio Logo" class="logo-img">
+                </a>
+
+                <!-- Center Nav Pill with Liquid Effect -->
+                <div class="nav-pill" id="nav-pill">
+                    <div class="liquid-background" id="liquidBg"></div>
+                    <div class="lamp-light" id="lampLight"></div>
+                    <div class="glow-primary" id="glowPrimary"></div>
+                    <div class="glow-secondary" id="glowSecondary"></div>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="#hero" class="nav-link" data-index="0">Home</a></li>
+                        <li><a href="#projects" class="nav-link" data-index="1">Works</a></li>
+                        <li><a href="#skills" class="nav-link" data-index="2">Skills</a></li>
+                        <li><a href="#about" class="nav-link" data-index="3">About</a></li>
+                        <li><a href="#blog" class="nav-link" data-index="4">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- CTA Button (Right) -->
+                <a href="#contact" class="nav-cta">Stay in touch</a>
+
+                <!-- Mobile Toggle -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Mobile Menu -->
+        <ul class="nav-menu-mobile" id="nav-menu-mobile">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#projects" class="nav-link">Works</a></li>
+            <li><a href="#skills" class="nav-link">Services</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="nav-menu-cta">
+                <a href="#contact" class="nav-cta nav-cta--mobile">Stay in touch</a>
+            </li>
+        </ul>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Hero Section -->
+            <section id="hero" class="hero">
+
+                <div class="container hero-content">
+                    <div class="terminal-prompt" aria-hidden="true">
+                        <span class="prompt-symbol">$</span>
+                        <span class="prompt-text">whoami</span>
+                        <span class="cursor"></span>
+                    </div>
+
+
+
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello World!, I'm</span>
+                        <span class="name">Bennet Sharwin</span>
+                    </h1>
+
+                    <p class="hero-role">
+                        <span class="role-text" id="typed-role">Cybersecurity Enthusiast</span>
+                    </p>
+
+                    <p class="hero-tagline">
+                        Specializing in Network Security, Linux Security, and Threat Detection. Building security
+                        automation and detection tools.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span class="btn-icon">→</span>
+                            View Projects
+                        </a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download>
+                            <span class="btn-icon">↓</span>
+                            Download Resume
+                        </a>
+                    </div>
+
+                    <div class="scroll-indicator" aria-hidden="true">
+                        <span class="scroll-text">scroll</span>
+                        <span class="scroll-arrow">↓</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section about">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="section-header">
+                        <span class="section-number">01</span>
+                        <span class="section-label">— About me</span>
+                    </div>
+
+                    <!-- Main Content Grid -->
+                    <div class="about-hero">
+                        <div class="about-headline">
+                            <h2 class="about-title">
+                                My way into the<br>
+                                <span class="title-highlight">security</span> world!
+                            </h2>
+                        </div>
+
+                    </div>
+
+                    <!-- Story Content -->
+                    <div class="about-story">
+                        <div class="story-accent"></div>
+                        <div class="story-content">
+                            <h3 class="story-subtitle">Who I am and how it all started.</h3>
+
+                            <blockquote class="story-quote">
+                                "I believe in proactive security – understanding threats before they become incidents."
+                            </blockquote>
+
+                            <p>
+                                As a computer science student from Kerala, India, I discovered my passion for
+                                cybersecurity
+                                through hands-on exploration of Linux systems and network protocols. What started as
+                                curiosity quickly evolved into a focused pursuit of security knowledge.
+                            </p>
+
+                            <p>
+                                I've developed practical skills in log analysis, system security, network monitoring,
+                                and
+                                investigative troubleshooting. Building security automation and detection tools for file
+                                integrity monitoring and log forensics has become my specialty.
+                            </p>
+
+                            <p>
+                                My experience includes documenting findings, triaging alerts, and supporting incident
+                                response workflows. I'm passionate about creating tools that help security teams work
+                                more efficiently.
+                            </p>
+
+                            <p>
+                                Currently pursuing opportunities to contribute my analytical skills and practical
+                                tooling
+                                experience to organizations focused on <strong>security operations, threat detection,
+                                    and incident response.</strong>
+                            </p>
+
+                            <a href="#contact" class="about-cta">
+                                <span>Get in touch!</span>
+                                <span class="cta-arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Stats Row -->
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Security Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Python</span>
+                            <span class="stat-label">Primary Language</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Linux</span>
+                            <span class="stat-label">Security Focus</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section skills">
+                <div class="container">
+                    <h2 class="section-title">
+                        <span class="title-prefix">//</span> Skills & Tools
+                    </h2>
+
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">
+                                <span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                                        width="24" height="24" fill="currentColor">
+                                        <path
+                                            d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z" />
+                                    </svg></span>
+                                Security Operations
+                            </h3>
+                            <ul class="skill-list">
+                                <li>Log Analysis</li>
+                                <li>Event Triage</li>
+                                <li>Incident Documentation</li>
+                                <li>IOC Review</li>
+                                <li>Alert Investigation</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">
+                                <span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512" width="24" height="24" fill="currentColor">
+                                        <path
+                                            d="M256 0c-5.8 0-11.4 2.4-15.5 6.6L22.3 237.5c-7.6 7.8-9 19.6-3.4 28.9 5.6 9.3 16.3 13.8 27 11.3l24.1-5.7V480c0 17.7 14.3 32 32 32h304c17.7 0 32-14.3 32-32V271.9l24.1 5.7c10.7 2.5 21.4-2 27-11.3 5.6-9.3 4.2-21.1-3.4-28.9L271.5 6.6C267.4 2.4 261.8 0 256 0zm0 64l160 164.3V448H96V228.3L256 64z" />
+                                    </svg></span>
+                                Monitoring & Detection
+                            </h3>
+                            <ul class="skill-list">
+                                <li>Zeek Logs</li>
+                                <li>Linux Audit Logs</li>
+                                <li>File Integrity Monitoring</li>
+                                <li>Baseline Monitoring</li>
+                                <li>Threat Detection</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">
+                                <span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 470 470" width="24" height="24" fill="currentColor">
+                                        <path
+                                            d="M453.75,224.167h-82.5c-8.958,0-16.25,7.292-16.25,16.25v179.166c0,8.959,7.292,16.25,16.25,16.25h82.5 c8.958,0,16.25-7.291,16.25-16.25V240.417C470,231.459,462.708,224.167,453.75,224.167z M437.5,403.333h-50V256.667h50V403.333z" />
+                                        <path
+                                            d="M16.25,435.833h82.5c8.958,0,16.25-7.291,16.25-16.25V240.417c0-8.958-7.292-16.25-16.25-16.25h-82.5 C7.292,224.167,0,231.459,0,240.417v179.166C0,428.542,7.292,435.833,16.25,435.833z M32.5,256.667h50v146.666h-50V256.667z" />
+                                        <path
+                                            d="M315.833,34.167H154.167c-44.771,0-81.25,36.479-81.25,81.25v16.25c0,8.958,7.292,16.25,16.25,16.25h341.666 c8.958,0,16.25-7.292,16.25-16.25v-16.25C447.083,70.646,410.604,34.167,315.833,34.167z M154.167,115.417 c-8.958,0-16.25-7.292-16.25-16.25c0-8.958,7.292-16.25,16.25-16.25c8.959,0,16.25,7.292,16.25,16.25 C170.417,108.125,163.126,115.417,154.167,115.417z" />
+                                        <path
+                                            d="M348.333,160.417H121.667c-8.958,0-16.25,7.292-16.25,16.25v32.5c0,8.958,7.292,16.25,16.25,16.25h226.666 c8.958,0,16.25-7.292,16.25-16.25v-32.5C364.583,167.709,357.291,160.417,348.333,160.417z" />
+                                    </svg></span>
+                                Scripting & Automation
+                            </h3>
+                            <ul class="skill-list">
+                                <li>Python (log parsing, alert automation)</li>
+                                <li>Bash / Shell Scripting</li>
+                                <li>Node.js</li>
+                                <li>HTML/CSS/JS</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">
+                                <span class="category-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        width="24" height="24" fill="currentColor">
+                                        <path
+                                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm7.931 9h-2.764a14.67 14.67 0 0 0-1.792-6.243A8.013 8.013 0 0 1 19.931 11zM12.53 4.027c1.035 1.364 2.427 3.78 2.627 6.973H8.843c.2-3.193 1.592-5.61 2.627-6.973.198-.264.312-.399.53-.399.218 0 .332.135.53.399zM8.625 4.757A14.67 14.67 0 0 0 6.833 11H4.069a8.013 8.013 0 0 1 4.556-6.243zM4.069 13h2.764a14.67 14.67 0 0 0 1.792 6.243A8.013 8.013 0 0 1 4.069 13zm7.401 6.973c-1.035-1.364-2.427-3.78-2.627-6.973h6.314c-.2 3.193-1.592 5.61-2.627 6.973-.198.264-.312.399-.53.399-.218 0-.332-.135-.53-.399zm3.905-.73A14.67 14.67 0 0 0 17.167 13h2.764a8.013 8.013 0 0 1-4.556 6.243z" />
+                                    </svg></span>
+                                Networking & Infrastructure
+                            </h3>
+                            <ul class="skill-list">
+                                <li>TCP/IP, DNS, HTTP/S</li>
+                                <li>Ports & Protocols</li>
+                                <li>Packet Inspection</li>
+                                <li>Linux Administration</li>
+                                <li>Docker & Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section projects">
+                <div class="container">
+                    <h2 class="section-title">
+                        <span class="title-prefix">//</span> Projects
+                    </h2>
+
+                    <div class="projects-grid">
+                        <!-- Project 1: Tor Chat -->
+                        <div class="glare-card" data-title="Tor Encrypted Chat"
+                            data-description="A secure, anonymous communication tool designed to protect user privacy and resist traffic analysis. By routing traffic through the Tor network and implementing end-to-end encryption, this application ensures that communication remains confidential and untraceable. I designed the architecture to handle TLS certificate verification and onion-routing configuration seamlessly."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-tor.png" alt="Tor Encrypted Chat">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">Tor Chat App</h3>
+                                        <span class="glare-card-subtitle">Privacy Tool</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <!-- Hidden details for modal -->
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Python, Tor, TLS</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Impact</div>
+                                        <div class="detail-value">Tested for anonymity leaks, evaluated traffic
+                                            patterns.</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Year</div>
+                                        <div class="detail-value">2025</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Type</div>
+                                        <div class="detail-value">Privacy Tool</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/Tor-Routed-Comms-TLS"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2: FIM -->
+                        <div class="glare-card" data-title="File Integrity Monitor"
+                            data-description="A real-time detection system for unauthorized file changes on critical Linux systems. Using SHA256 hashing, the system monitors file states and automatically generates Jira tickets when discrepancies are detected. This tool simulates SOC workflows and supports incident tracking."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-fim.png" alt="File Integrity Monitor">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">Integrity Monitor</h3>
+                                        <span class="glare-card-subtitle">Detection Tool</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Python, SHA256, Jira API</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Impact</div>
+                                        <div class="detail-value">Real-time detection & automated ticketing.</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Year</div>
+                                        <div class="detail-value">2025</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/auto-file-integrity-ticketer-Jira"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3: Forensics -->
+                        <div class="glare-card" data-title="Network Forensics Toolkit"
+                            data-description="An efficient toolkit for parsing and analyzing network logs to detect threats. By processing Zeek logs with Python and Pandas, this tool extracts connection metadata, identifies suspicious patterns like port scans, and produces forensic summaries for alert triage."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-forensics.png" alt="Forensics Toolkit">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">Forensics Toolkit</h3>
+                                        <span class="glare-card-subtitle">Analytics Tool</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Zeek, Python, Pandas</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Impact</div>
+                                        <div class="detail-value">Rapid identification of anomaly indicators.</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Year</div>
+                                        <div class="detail-value">2025</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/network-traffic-graphs"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4: Recon -->
+                        <div class="glare-card" data-title="Network Recon Tool"
+                            data-description="Automated host discovery and service fingerprinting for network security assessments. Built with Scapy and Nmap, this tool conducts port enumeration and service fingerprinting, ensuring that scan baselines are established to detect unexpected services."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-recon.png" alt="Recon Tool">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">Recon & Enum</h3>
+                                        <span class="glare-card-subtitle">Recon Tool</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Scapy, Nmap</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Impact</div>
+                                        <div class="detail-value">Automated discovery of unauthorized services.</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Year</div>
+                                        <div class="detail-value">2024</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/Scapy-network-scanner"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 5: Web Sec -->
+                        <div class="glare-card" data-title="Web App Hardening"
+                            data-description="A project focused on securing web applications against common vulnerabilities. I hardened a Flask application by implementing strict security headers, robust input validation, and Cloudflare Turnstile integration to prevent automated abuse and improve authentication resilience."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-websec.png" alt="Web Hardening">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">App Hardening</h3>
+                                        <span class="glare-card-subtitle">Web Security</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Flask, OWASP, Cloudflare</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Impact</div>
+                                        <div class="detail-value">Mitigated XSS, CSRF, and SQLi risks.</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Year</div>
+                                        <div class="detail-value">2024</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/SparkEd-secure-flask-app"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 6: NGINX Reverse Proxy -->
+                        <div class="glare-card" data-title="NGINX Reverse Proxy"
+                            data-description="This repository provides simple and clear examples of how to configure NGINX as a reverse proxy using Docker. It includes two common scenarios: path-based routing and subdomain-based routing."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-nginx.webp" alt="NGINX Proxy">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">NGINX Proxy</h3>
+                                        <span class="glare-card-subtitle">DevOps</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Docker, NGINX</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/nginx-reverse-proxy-configuration"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 7: Domain OSINT -->
+                        <div class="glare-card" data-title="Domain OSINT Automation"
+                            data-description="This project is an n8n-powered automation workflow that performs OSINT and reconnaissance on any domain name using public APIs and AI-based summarization."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-osint.webp" alt="Domain OSINT">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">OSINT Automation</h3>
+                                        <span class="glare-card-subtitle">Automation</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">n8n, AI, APIs</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/Domain_OSINT_Automation"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 8: Golden Image -->
+                        <div class="glare-card" data-title="CIS Golden Image"
+                            data-description="This repository provides a collection of Packer templates and associated scripts for building hardened machine images across different environments. The goal is to automate the process of securing systems according to publicly recognized security standards, enhancing their resilience against various threats."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-goldenimage.png" alt="Golden Image">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">Golden Image</h3>
+                                        <span class="glare-card-subtitle">Cloud Security</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Tech Stack</div>
+                                        <div class="detail-value">Packer, Bash, CIS</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Link</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/Golden-Image-For-cloud-and-baremetal"
+                                                target="_blank" rel="noopener noreferrer">View Project</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education & Technical Toolkit Section -->
+            <section id="certifications" class="section certifications">
+                <div class="container">
+                    <h2 class="section-title">
+                        <span class="title-prefix">//</span> Education & Toolkit
+                    </h2>
+
+                    <div class="certs-grid">
+                        <div class="cert-card">
+                            <div class="cert-badge"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    width="32" height="32" fill="currentColor">
+                                    <path
+                                        d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z" />
+                                </svg></div>
+                            <div class="cert-info">
+                                <h3>Higher Secondary — Computer Science</h3>
+                                <p>2023 – 2025 • Kerala, India</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-badge"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    width="32" height="32" fill="currentColor">
+                                    <path
+                                        d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z" />
+                                </svg></div>
+                            <div class="cert-info">
+                                <h3>Python & Bash Scripting</h3>
+                                <p>Automation & Security Tools</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-badge"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    width="32" height="32" fill="currentColor">
+                                    <path
+                                        d="M220.8 123.3c1 .5 1.8 1.7 3 1.7 1.1 0 2.8-.4 2.9-1.5.2-1.4-1.9-2.3-3.2-2.9-1.7-.7-3.9-1-5.5-.1-.4.2-.8.7-.6 1.1.3 1.3 2.3 1.1 3.4 1.7zm-21.9 1.7c1.2 0 2-1.2 3-1.7 1.1-.6 3.1-.4 3.5-1.6.2-.4-.2-.9-.6-1.1-1.6-.9-3.8-.6-5.5.1-1.3.6-3.4 1.5-3.2 2.9.1 1 1.8 1.5 2.8 1.4zM420 403.8c-3.6-4-5.3-11.6-7.2-19.7-1.8-8.1-3.9-16.8-10.5-22.4-1.3-1.1-2.6-2.1-4-2.9-1.3-.8-2.7-1.5-4.1-2 9.2-27.3 5.6-54.5-3.7-79.1-11.4-30.1-31.3-56.4-46.5-74.4-17.1-21.5-33.7-41.9-33.4-72C311.1 85.4 315.7.1 234.8 0 132.4-.2 158 103.4 156.9 135.2c-1.7 23.4-6.4 41.8-22.5 64.7-18.9 22.5-45.5 58.8-58.1 96.7-6 17.9-8.8 36.1-6.2 53.3-6.5 5.8-11.4 14.7-16.6 20.2-4.2 4.3-10.3 5.9-17 8.3s-14 6-18.5 14.5c-2.1 3.9-2.8 8.1-2.8 12.4 0 3.9.6 7.9 1.2 11.8 1.2 8.1 2.5 15.7.8 20.8-5.2 14.4-5.9 24.4-2.2 31.7 3.8 7.3 11.4 10.5 20.1 12.3 17.3 3.6 40.8 2.7 59.3 12.5 19.8 10.4 39.9 14.1 55.9 10.4 11.6-2.6 21.1-9.6 25.9-20.2 12.5-.1 26.3-5.4 48.3-6.6 14.9-1.2 33.6 5.3 55.1 4.1.6 2.3 1.4 4.6 2.5 6.7v.1c8.3 16.7 23.8 24.3 40.3 23 16.6-1.3 34.1-11 48.3-27.9 13.6-16.4 36-23.2 50.9-32.2 7.4-4.5 13.4-10.1 13.9-18.3.4-8.2-4.4-17.3-15.5-29.7zM223.7 87.3c9.8-22.2 34.2-21.8 44-.4 6.5 14.2 3.6 30.9-4.3 40.4-1.6-.8-5.9-2.6-12.6-4.9 1.1-1.2 3.1-2.7 3.9-4.6 4.8-11.8-.2-27-9.1-27.3-7.3-.5-13.9 10.8-11.8 23-4.1-2-9.4-3.5-13-4.4-1-6.9-.3-14.6 2.9-21.8zM183 75.8c10.1 0 20.8 14.2 19.1 33.5-3.5 1-7.1 2.5-10.2 4.6 1.2-8.9-3.3-20.1-9.6-19.6-8.4.7-9.8 21.2-1.8 28.1 1 .8 1.9-.2-5.9 5.5-15.6-14.6-10.5-52.1 8.4-52.1zm-13.6 60.7c6.2-4.6 13.6-10 14.1-10.5 4.7-4.4 13.5-14.2 27.9-14.2 7.1 0 15.6 2.3 25.9 8.9 6.3 4.1 11.3 4.4 22.6 9.3 8.4 3.5 13.7 9.7 10.5 18.2-2.6 7.1-11 14.4-22.7 18.1-11.1 3.6-19.8 16-38.2 14.9-3.9-.2-7-1-9.6-2.1-8-3.5-12.2-10.4-20-15-8.6-4.8-13.2-10.4-14.7-15.3-1.4-4.9 0-9 4.2-12.3zm3.3 334c-2.7 35.1-43.9 34.4-75.3 18-29.9-15.8-68.6-6.5-76.5-21.9-2.4-4.7-2.4-12.7 2.6-26.4v-.2c2.4-7.6.6-16-.6-23.9-1.2-7.8-1.8-15 .9-20 3.5-6.7 8.5-9.1 14.8-11.3 10.3-3.7 11.8-3.4 19.6-9.9 5.5-5.7 9.5-12.9 14.3-18 5.1-5.5 10-8.1 17.7-6.9 8.1 1.2 15.1 6.8 21.9 16l19.6 35.6c9.5 19.9 43.1 48.4 41 68.9zm-30.5-66.5c-3.3 5.6-3.6 8.8-1.7 11.7 4.6 7.3 18.3 5.2 30.6-3.2 12.8-8.8 25.6-25.9 21.5-36.7-2.4-6.1-8.8-8.7-13.6-5.2-1.2-4.5-8.8-8.6-15.6 1.7-6.7 10.2-14.6 20.5-21.2 31.7zm28-10.2c.5-.7.6-1.5-.1-2.2-4.8-3.5-18.2 9.1-17.5 14.7.4 3.5 8.4.4 12 4.1 3.6 3.7-2.2 7.3-3.5 11-.5 1.3-.9 3.1-.3 4.4.8 1.7 2.5 2.3 4.2 1.7 3.3-1.2 5.2-4.8 7.3-8.9s3.7-7.4 6.1-11.3c2.2-3.8 3.9-8.7-.2-13.5zm153.3 74.6c-15.7 25-29.8 37.6-40.8 38.5-11 .9-18.9-7.2-22.2-18.5-5.5-18.8-24.2-37.4-44.5-60.3l-23.8-28c-7.7-10.7-11.5-21.2-12.3-30.6-.6-6.5.1-12.5 2.1-17.9 6.2-16.6 22.3-28.1 42.9-30.1 6.2-.6 12.9.2 19.8 2.6 6.8 2.3 13.5 5.8 19.7 10.2 12.2 8.7 22.5 21 28.4 35.5 3.5 8.6 5.6 17.6 5.9 26.7.3 9.1-1.3 18.2-5.2 26.4-1.9 4-4.3 7.7-7.1 11.1-2.8 3.4-6 6.5-9.5 9.2-3.5 2.7-7.4 5.1-11.5 7.1-4.1 2-8.5 3.5-13.1 4.5 17.3 8.9 32.5 6.8 43.6-2.2 11.1-9 17.8-24.2 14.4-41.3 14.8-2.2 22.2 13.5 22 29.6-.3 16.1-7.2 28.9-14.8 37.5z" />
+                                </svg></div>
+                            <div class="cert-info">
+                                <h3>Linux Security</h3>
+                                <p>System Administration & Hardening</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-badge"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                    width="32" height="32" fill="currentColor">
+                                    <path
+                                        d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4z" />
+                                </svg></div>
+                            <div class="cert-info">
+                                <h3>Cloud & Infrastructure</h3>
+                                <p>AWS, Azure, Docker, Git</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack-container">
+                        <h3 class="achievements-title">Security Tools & Technologies</h3>
+                        <div class="tech-grid">
+                            <!-- Languages & Web -->
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                                        alt="Python" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Python</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"
+                                        alt="Bash" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Bash</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                                        alt="JavaScript" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">JavaScript</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                                        alt="Node.js" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Node.js</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                                        alt="HTML5" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">HTML</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                                        alt="CSS3" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">CSS</span>
+                            </div>
+
+                            <!-- Network & Security Tools -->
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Nmap_logo_hawk_only.svg"
+                                        alt="Nmap" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Nmap</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg"
+                                        alt="Wireshark" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Wireshark</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.simpleicons.org/zeek" alt="Zeek" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Zeek</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.simpleicons.org/burpsuite" alt="Burp Suite"
+                                        class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Burp Suite</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.simpleicons.org/metasploit" alt="Metasploit"
+                                        class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Metasploit</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://www.zaproxy.org/img/zap-logo.svg" alt="OWASP ZAP"
+                                        class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">OWASP ZAP</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-database tech-fa"></i>
+                                </div>
+                                <span class="tech-name">SQLmap</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-bolt tech-fa"></i>
+                                </div>
+                                <span class="tech-name">ffuf</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-binoculars tech-fa"></i>
+                                </div>
+                                <span class="tech-name">Recon-ng</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://www.vectorlogo.zone/logos/torproject/torproject-icon.svg"
+                                        alt="Tor" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Tor</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.simpleicons.org/kalilinux" alt="Kali Linux"
+                                        class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Kali Linux</span>
+                            </div>
+
+                            <!-- Cloud & Infrastructure -->
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                        alt="AWS" class="tech-icon-img" style="transform: scale(1.2);">
+                                </div>
+                                <span class="tech-name">AWS</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+                                        alt="Docker" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Docker</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git"
+                                        class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Git</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.simpleicons.org/n8n" alt="n8n" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">n8n</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <img src="https://cdn.simpleicons.org/jira" alt="Jira" class="tech-icon-img">
+                                </div>
+                                <span class="tech-name">Jira</span>
+                            </div>
+
+                            <!-- Operations & Concepts -->
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-shield-halved tech-fa"></i>
+                                </div>
+                                <span class="tech-name">IDS/IPS</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-laptop-medical tech-fa"></i>
+                                </div>
+                                <span class="tech-name">XDR / EDR</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-network-wired tech-fa"></i>
+                                </div>
+                                <span class="tech-name">SIEM</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-project-diagram tech-fa"></i>
+                                </div>
+                                <span class="tech-name">SOAR</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-user-shield tech-fa"></i>
+                                </div>
+                                <span class="tech-name">SOC Ops</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-bug tech-fa"></i>
+                                </div>
+                                <span class="tech-name">Malware</span>
+                            </div>
+                            <div class="tech-card">
+                                <div class="tech-icon">
+                                    <i class="fa-solid fa-lock tech-fa"></i>
+                                </div>
+                                <span class="tech-name">Encryption</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+            <!-- Blogs & Writeups Section -->
+            <section id="blogs" class="section blogs">
+                <div class="container">
+                    <h2 class="section-title">
+                        <span class="title-prefix">//</span> Blogs & Writeups
+                    </h2>
+
+                    <div class="projects-grid">
+                        <!-- Blog 1: Writeups Repo -->
+                        <div class="glare-card" data-title="CTF Writeups"
+                            data-description="This repository contains the writeups and report of labs, boxes and CTF I have worked on. It serves as a knowledge base and a record of my practical security challenges."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/flag-ctf.png" alt="Writeups">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">CTF Writeups</h3>
+                                        <span class="glare-card-subtitle">Repository</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Type</div>
+                                        <div class="detail-value">GitHub Repo</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Read</div>
+                                        <div class="detail-value"><a href="https://github.com/bencrypted0/Writeups.git"
+                                                target="_blank" rel="noopener noreferrer">View Repository</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 2: CRAPI Report -->
+                        <div class="glare-card" data-title="CRAPI Pentest Report"
+                            data-description="A comprehensive pentesting report on the CRAPI (Completely Ridiculous API) vulnerable app. This report details the methodology, vulnerabilities discovered, and remediation steps."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-websec.png" alt="CRAPI Report">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">CRAPI Report</h3>
+                                        <span class="glare-card-subtitle">Pentest Report</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Type</div>
+                                        <div class="detail-value">PDF Report</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Read</div>
+                                        <div class="detail-value"><a
+                                                href="https://github.com/bencrypted0/CRAPI-Pentesting-Report/blob/main/Pentesting-Report/CR-API%20Pentesting%20Report.pdf"
+                                                target="_blank" rel="noopener noreferrer">View Report</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 3: AWS Goat -->
+                        <div class="glare-card" data-title="AWS Goat Pentest"
+                            data-description="A walkthrough of penetration testing on AWS Goat, a vulnerable-by-design AWS infrastructure. This article explores cloud security misconfigurations and exploitation techniques."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-aws.webp" alt="AWS Goat">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">AWS Goat</h3>
+                                        <span class="glare-card-subtitle">Cloud Pentest</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Platform</div>
+                                        <div class="detail-value">Medium</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Read</div>
+                                        <div class="detail-value"><a
+                                                href="https://medium.com/@bennetsharwin001/penetration-testing-on-aws-goat-bb214717b5da"
+                                                target="_blank" rel="noopener noreferrer">Read Article</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 4: WAF Home Lab -->
+                        <div class="glare-card" data-title="WAF Home Lab"
+                            data-description="A guide on setting up a Web Application Firewall (WAF) in a home lab environment. Learn how to deployment and configure a WAF to protect web applications from common attacks."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-waf.jpg" alt="WAF Lab">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">WAF Home Lab</h3>
+                                        <span class="glare-card-subtitle">Blue Team</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Platform</div>
+                                        <div class="detail-value">Medium</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Read</div>
+                                        <div class="detail-value"><a
+                                                href="https://medium.com/@bennetsharwin001/home-lab-a-web-application-firewall-8a2fd5726431"
+                                                target="_blank" rel="noopener noreferrer">Read Article</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 5: DMZ Sim -->
+                        <div class="glare-card" data-title="DMZ Network Simulation"
+                            data-description="A tutorial on how to simulate a DMZ (Demilitarized Zone) network using VirtualBox and pfSense firewall. This setup helps in understanding network segmentation and firewall rules."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-dmz.jpg" alt="DMZ Sim">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">DMZ Simulation</h3>
+                                        <span class="glare-card-subtitle">Network Lab</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Platform</div>
+                                        <div class="detail-value">Medium</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Read</div>
+                                        <div class="detail-value"><a
+                                                href="https://medium.com/@bennetsharwin001/how-to-simulate-a-dmz-demilitarized-zone-network-with-virtualbox-and-pfsense-firewall-b36aea158d3c"
+                                                target="_blank" rel="noopener noreferrer">Read Article</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 6: Recon-ng -->
+                        <div class="glare-card" data-title="Recon-ng Guide"
+                            data-description="A practical guide on how to use Recon-ng for information gathering and OSINT. Covers modules, API integration, and reporting for effective reconnaissance."
+                            role="button" tabindex="0">
+                            <div class="glare-card-inner">
+                                <div class="glare-card-base">
+                                    <img class="card-image" src="assets/card-recon.jpg" alt="Recon-ng">
+                                    <div class="glare-card-content">
+                                        <h3 class="glare-card-title">Recon-ng Guide</h3>
+                                        <span class="glare-card-subtitle">OSINT</span>
+                                    </div>
+                                </div>
+                                <div class="glare-effect"></div>
+                                <div class="foil-effect"></div>
+                                <div class="card-details-hidden" style="display: none;">
+                                    <div class="detail-item">
+                                        <div class="detail-label">Platform</div>
+                                        <div class="detail-value">Medium</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Read</div>
+                                        <div class="detail-value"><a
+                                                href="https://medium.com/@bennetsharwin001/how-to-use-recon-ng-for-information-gathering-osint-a4b3c2896a9b"
+                                                target="_blank" rel="noopener noreferrer">Read Article</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section contact contact-now">
+                <div class="container">
+                    <h2 class="contact-now-title">
+                        <span class="contact-now-title-main">Contact</span>
+                        <span class="contact-now-title-accent">Now!</span>
+                    </h2>
+
+                    <div class="contact-now-stage">
+                        <div class="contact-watermark" aria-hidden="true">MY ADDRESS</div>
+
+                        <form class="contact-now-form" id="contact-form" autocomplete="on">
+                            <div class="contact-field">
+                                <label for="contact-name" class="contact-field-label">Name</label>
+                                <input id="contact-name" name="name" class="contact-field-input" type="text"
+                                    autocomplete="name" placeholder="Jane Smith" required>
+                            </div>
+
+                            <div class="contact-field">
+                                <label for="contact-email" class="contact-field-label">Email</label>
+                                <input id="contact-email" name="email" class="contact-field-input" type="email"
+                                    autocomplete="email" placeholder="jane@example.com" required>
+                            </div>
+
+                            <div class="contact-field">
+                                <label for="contact-inquiry" class="contact-field-label">Inquiry Details</label>
+                                <select id="contact-inquiry" name="inquiry" class="contact-field-input">
+                                    <option value="pentest">Penetration Testing</option>
+                                    <option value="appsec">Application Security</option>
+                                    <option value="consulting">Security Consulting</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="contact-field contact-field--message">
+                                <label for="contact-message" class="contact-field-label">Message</label>
+                                <textarea id="contact-message" name="message" class="contact-field-input" rows="4"
+                                    placeholder="Tell me a bit about what you need..."></textarea>
+                            </div>
+
+                            <button class="contact-submit" type="submit">Submit</button>
+                        </form>
+
+                        <div class="contact-now-right">
+                            <div class="contact-social-cards">
+                                <a class="social-card social-card--github" href="https://github.com/bencrypted0"
+                                    target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+                                    <span class="social-card-label">GitHub</span>
+                                </a>
+                                <a class="social-card social-card--linkedin"
+                                    href="https://linkedin.com/in/bennetsharwin" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Open LinkedIn profile">
+                                    <span class="social-card-label">LinkedIn</span>
+                                </a>
+                                <a class="social-card social-card--htb" href="#" data-href-pending="true"
+                                    aria-label="Hack The Box link coming soon">
+                                    <span class="social-card-label">Hack The Box</span>
+                                </a>
+                            </div>
+
+                            <div class="contact-details">
+                                <div class="contact-methods">
+                                    <div class="contact-item">
+                                        <span class="contact-label">Email</span>
+                                        <div class="contact-value-wrapper">
+                                            <span class="contact-value"
+                                                id="email-value">bennetsharwin76@gmail.com</span>
+                                            <button class="copy-btn" data-copy="bennetsharwin76@gmail.com"
+                                                aria-label="Copy email address">
+                                                <span class="copy-icon">📋</span>
+                                                <span class="copy-text">Copy</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <span class="contact-label">Phone</span>
+                                        <div class="contact-value-wrapper">
+                                            <span class="contact-value">+91 7994026917</span>
+                                            <button class="copy-btn" data-copy="+917994026917"
+                                                aria-label="Copy phone number">
+                                                <span class="copy-icon">📋</span>
+                                                <span class="copy-text">Copy</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="contact-meta">
+                                    <p><strong>Kerala, India</strong></p>
+                                    <p>English • Malayalam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-marquee" aria-hidden="true">
+                        <div class="contact-marquee-track">
+                            <div class="contact-marquee-group">
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                            </div>
+                            <div class="contact-marquee-group" aria-hidden="true">
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                                <span class="contact-marquee-item">Let's Talk!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-text">
+                    <span class="footer-prompt">$</span> echo "Built with security in mind"
+                    <span class="footer-separator">|</span>
+                    <span class="footer-year">2026</span>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+        <div class="modal-card" role="dialog" aria-modal="true">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img class="modal-image" src="" alt="Project Image" aria-hidden="true">
+                    <h2 class="modal-title">Project Title</h2>
+                    <p class="modal-description">
+                        Project Description
+                    </p>
+                </div>
+                <div class="modal-details">
+                    <!-- Dynamic Details -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/liquid-navbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/glare-effect.js"></script>
+</body>
+
+</html>
