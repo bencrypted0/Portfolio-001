@@ -2,6 +2,20 @@
    LUXURY PORTFOLIO - Premium Design System
    ============================================ */
 
+@font-face {
+    font-family: 'Gued';
+    src: url('../fonts/gued/Gued.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gued';
+    src: url('../fonts/gued/Gued - Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 :root {
     /* Premium Color Palette - Deep Blacks & Golds */
     --bg-primary: #030304;
@@ -1014,7 +1028,7 @@ a:hover {
 
 .name {
     display: block;
-    font-family: var(--font-script);
+    font-family: 'Gued', sans-serif;
     font-size: var(--text-6xl);
     font-weight: 400;
     line-height: 1.1;
